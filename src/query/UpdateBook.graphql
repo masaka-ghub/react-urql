@@ -1,0 +1,6 @@
+mutation UpdateBook($input: UpdateBookInput) {
+  updateBook(input: $input) {
+    title
+    author
+  }
+}

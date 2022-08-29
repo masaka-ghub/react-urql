@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "update-schema": "mkdir -p ./src/schema/ ; curl https://docs.github.com/public/schema.docs.graphql -o src/schema/schema.docs.graphql",
-    "gen-schema": "graphql-codegen --config codegen.yml"
+    "gen-schema": "graphql-codegen --config codegen.yml",
+    "generate": "graphql-codegen --config codegen.yml"
   },
   "eslintConfig": {
     "extends": [
@@ -48,9 +49,9 @@
     "@graphql-codegen/cli": "2.11.6",
     "@graphql-codegen/introspection": "2.2.1",
     "@graphql-codegen/typed-document-node": "^2.3.3",
-    "@graphql-codegen/typescript": "^2.7.3",
+    "@graphql-codegen/typescript": "2.7.3",
     "@graphql-codegen/typescript-graphql-files-modules": "2.2.1",
-    "@graphql-codegen/typescript-operations": "^2.5.3",
+    "@graphql-codegen/typescript-operations": "2.5.3",
     "@graphql-codegen/typescript-urql": "^3.6.4",
     "@graphql-codegen/urql-introspection": "2.2.1"
   }
